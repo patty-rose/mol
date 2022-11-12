@@ -1,15 +1,47 @@
-html { 
-  background: url(img/lightning.png) no-repeat center center fixed; 
+html.index{
+  background: url(img/lightning.png) no-repeat center center fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+html.mol2{
+  background: url(img/wall.png)no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+html.mol3{
+  background: url(img/corridor.png)no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+html.mol4{
+  background: url(img/bench.png)no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+html.mol5{
+  background: url(img/trees.png)no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 body {
   font-family: "Droid Serif";
   color: red;
-
+  
 }
 
 h1{
@@ -26,12 +58,28 @@ p{
   font-size: 1.5em;
   font-weight: 900;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
 
-.main{
-  margin: 30%;
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
 }
